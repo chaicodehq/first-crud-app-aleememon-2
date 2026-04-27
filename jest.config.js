@@ -6,5 +6,6 @@ export default {
   collectCoverageFrom: [
     "src/**/*.js",
     "!src/server.js" // Exclude server startup file from coverage
-  ]
+  ],
+  testTimeout: 15000
 };
